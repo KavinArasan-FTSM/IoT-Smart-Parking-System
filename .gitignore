@@ -1,0 +1,33 @@
+# --------------------------
+# Secrets / Credentials
+# --------------------------
+secrets.h       # AWS keys, WiFi credentials, etc.
+*.pem           # Certificates
+*.crt
+*.key
+
+# --------------------------
+# Arduino / ESP32 build files
+# --------------------------
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.o
+*.d
+*.pioenvs/
+*.pio/
+
+# --------------------------
+# OS / Editor files
+# --------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------------
+# Logs
+# --------------------------
+*.log
